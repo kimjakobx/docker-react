@@ -1,7 +1,6 @@
 
 docker run -p 3000:3000 -v /app/node_modules -v $(pwd):/app cacfec007a98
 
-
-
 docker run -it 5959d89d4fb4 npm run test
+
 
